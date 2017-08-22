@@ -20,34 +20,34 @@ async function init () {
     description: 'edit existing users'
   })
   let role2 = await models.Role.create({
-    name: 'normal:30qps',
-    display_name: '30 QPS Normal User',
-    description: 'User is allowed to view and edit the content, his ratelimit is 30qps'
+    name: 'normal:90qps',
+    display_name: '90 QPS Normal User',
+    description: 'User is allowed to view and edit the content, his ratelimit is 90qps'
   })
   let role3 = await models.Role.create({
-    name: 'normal:300qpt',
-    display_name: '300 QPT Normal User',
-    description: 'User is allowed to view and edit the content, his ratelimit is 300qpt'
+    name: 'normal:900qpt',
+    display_name: '900 QPT Normal User',
+    description: 'User is allowed to view and edit the content, his ratelimit is 900qpt'
   })
   let role4 = await models.Role.create({
-    name: 'normal:3000qph',
-    display_name: '3000 QPH Normal User',
-    description: 'User is allowed to view and edit the content, his ratelimit is 3000qph'
+    name: 'normal:9000qph',
+    display_name: '9000 QPH Normal User',
+    description: 'User is allowed to view and edit the content, his ratelimit is 9000qph'
   })
   let role5 = await models.Role.create({
-    name: 'normal:30000qpd',
-    display_name: '30000 QPD Normal User',
-    description: 'User is allowed to view and edit the content, his ratelimit is 30000qpd'
+    name: 'normal:90000qpd',
+    display_name: '90000 QPD Normal User',
+    description: 'User is allowed to view and edit the content, his ratelimit is 90000qpd'
   })
   let role6 = await models.Role.create({
-    name: 'normal:300000qpw',
-    display_name: '300000 QPW Normal User',
-    description: 'User is allowed to view and edit the content, his ratelimit is 300000qpw'
+    name: 'normal:900000qpw',
+    display_name: '900000 QPW Normal User',
+    description: 'User is allowed to view and edit the content, his ratelimit is 900000qpw'
   })
   let role7 = await models.Role.create({
-    name: 'normal:3000000qpm',
-    display_name: '3000000 QPM Normal User',
-    description: 'User is allowed to view and edit the content, his ratelimit is 3000000qpm'
+    name: 'normal:9000000qpm',
+    display_name: '9000000 QPM Normal User',
+    description: 'User is allowed to view and edit the content, his ratelimit is 9000000qpm'
   })
   let permission2 = await models.Permission.create({
     name: 'view-edit',

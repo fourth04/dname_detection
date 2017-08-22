@@ -1,7 +1,7 @@
 {
-  "name": "koa-restful-api-evil",
+  "name": "dname_detection",
   "version": "1.0.0",
-  "description": "koa restful api",
+  "description": "dname_detection",
   "main": "start.js",
   "author": "gdgyy",
   "license": "MIT",
